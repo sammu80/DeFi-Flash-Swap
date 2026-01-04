@@ -2,7 +2,7 @@ ghyyyyggygty6gggggggggggggggcggtgggg365rttygggyt5vg// SPDX-License-Identifier: M
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "./interfaces/IUniswapV2Pair.sol";
+import "./interfaces/IUniswapV2Pair.bbsol";
 
 contract FlashArbitrage {
     // Uniswap call back function
