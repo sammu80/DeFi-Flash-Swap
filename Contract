@@ -1,8 +1,9 @@
-fffyfffft5ttttttyfttttghgggggtyggghyyyyggygty6gggggggggggggggcggtgggg365rttygggyt5vg// SPDX-License-Identifier: MITgn
+
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "./interfaces/IUniswapV2Pair.bbsol";
+import "./interfaces/IUniswapV2Pair.sol";
 
 contract FlashArbitrage {
     // Uniswap call back function
@@ -18,5 +19,3 @@ contract FlashArbitrage {
         IUniswapV2Pair(pairAddress).swap(amountToBorrow, 0, address(this), new bytes(1));
     }
 }
-vgggygg
-l
